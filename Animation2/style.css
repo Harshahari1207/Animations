@@ -1,0 +1,69 @@
+*{
+    --primary: #A75D5D;
+    --secondary: #FFC3A1;
+    --first: #D3756B;
+    --second: #F0997D;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    --pd: 5px;
+    --br: 5px;
+    --gap: 5px;
+}
+button:hover{
+    background-color: var(--second);
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+button:focus{
+    background-color: var(--second);
+}
+.nav{
+    background-color: var(--first);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: end;
+    padding: var(--pd);
+}
+.dropDown{
+    display: flex;
+    padding: var(--pd);
+    gap: calc(var(--gap)*35);
+    justify-content: space-around;
+}
+.dropDownMenuBtn{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    background-color: var(--secondary);
+    border: 0;
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: var(--pd);
+    
+}
+.dropDownMenu{
+    display: none;
+    padding: var(--pd);
+    gap: calc(var(--gap)*30);
+    justify-content: space-around;
+}
+.visible{
+    display: flex;
+}
+
+.dropDownMenu button{
+    cursor: pointer;
+    width: 6rem;
+    padding: var(--pd);
+    border: 0;
+    border-radius: var(--br);
+    background-color: var(--secondary);
+}
