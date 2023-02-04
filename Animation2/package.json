@@ -1,0 +1,19 @@
+{
+  "name": "@harshahari/drop-down-menu",
+  "version": "1.0.0",
+  "description": "Simple drop down menu",
+  "main": "index.js",
+  "scripts": {
+    "test": "drop down menu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harshahari1207/Animations.git#main"
+  },
+  "author": "Harsha Hari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harshahari1207/Animations/issues"
+  },
+  "homepage": "https://github.com/Harshahari1207/Animations/tree/main#readme"
+}
