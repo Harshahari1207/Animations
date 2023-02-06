@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+button{
+    background-color: bisque;
+    border-radius: 5px;
+    width: 6rem;
+    padding: 5px;
+    border: 0;
+}
+button:hover, button:focus{ 
+    background-color: rgb(235, 205, 165);
+}
+body{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: aquamarine;
+}
+.container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input{
+    border-radius: 5px;
+}
